@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Todo|Vanila</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="inputSection">
+        <input
+          type="text"
+          id="todoInput"
+          placeholder="Enter your To Do"
+          onfocus="this.placeholder=''"
+          onblur="this.placeholder='Enter your To Do'"
+        />
+        <button onclick="addTodo()">Submit</button>
+      </div>
+      <div id="todoSection">
+        <ul id="todoList"></ul>
+      </div>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

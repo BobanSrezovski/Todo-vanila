@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: lightsteelblue;
+}
+
+main button {
+  -webkit-box-shadow: 4px 7px 23px -6px rgba(0, 0, 0, 0.75);
+          box-shadow: 4px 7px 23px -6px rgba(0, 0, 0, 0.75);
+  background-color: lightblue;
+  border: none;
+  border-radius: 10px;
+  color: #141414;
+  font-weight: bolder;
+  text-transform: uppercase;
+  outline: none;
+}
+
+main button:hover {
+  background-color: #3d7a8f;
+  cursor: pointer;
+}
+
+main button:active {
+  -webkit-box-shadow: 4px 3px 23px -6px rgba(0, 0, 0, 0.75);
+          box-shadow: 4px 3px 23px -6px rgba(0, 0, 0, 0.75);
+}
+
+main #inputSection {
+  height: 5vh;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 20px;
+}
+
+main #inputSection button {
+  padding: 0 20px;
+  margin-left: 20px;
+}
+
+main #inputSection input {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  -webkit-box-shadow: 4px 7px 23px -6px rgba(0, 0, 0, 0.75);
+          box-shadow: 4px 7px 23px -6px rgba(0, 0, 0, 0.75);
+  background-color: mintcream;
+  text-align: center;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+main #todoSection {
+  height: 50vh;
+  width: 500px;
+  background: mintcream;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 7px 23px -6px rgba(0, 0, 0, 0.75);
+          box-shadow: 4px 7px 23px -6px rgba(0, 0, 0, 0.75);
+}
+
+main #todoSection ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 30px;
+}
+
+main #todoSection ul li .completed {
+  text-decoration: line-through;
+}
+
+main #todoSection ul li input {
+  width: 30px;
+  height: 30px;
+}
+
+main #todoSection ul li p {
+  font-size: 1.2rem;
+  width: 300px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+main #todoSection ul li button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
